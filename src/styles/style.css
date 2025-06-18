@@ -187,7 +187,7 @@ footer{
     #roadmaps {
         background-size:contain;
         flex-direction: column;
-        min-height: 35.1vh;
+        min-height: 26.5vh;
     }
 
      #roadmaps button {
