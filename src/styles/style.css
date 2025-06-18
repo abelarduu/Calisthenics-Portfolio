@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Cascadia+Code:ital,wght@0,200..700;1,200..700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
 
 :root {
     --text-color: whitesmoke;
@@ -170,7 +169,6 @@ footer{
         margin-top: 3rem;
     }
 
-
     #about-me {
         flex-direction: column;
         padding: 2rem 1rem;
@@ -189,7 +187,7 @@ footer{
     #roadmaps {
         background-size:contain;
         flex-direction: column;
-        color:var(--text-color-hover);
+        min-height: 35.1vh;
     }
 
      #roadmaps button {
