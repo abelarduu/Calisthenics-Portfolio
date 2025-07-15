@@ -4,7 +4,7 @@
     --text-color: whitesmoke;
     --fonts: "cal sans", sans-serif;;
     --text-color-hover: black;
-    --background-black: #121212;
+    --background-black: #100F10;
     --background-white: #whitesmoke;
 }
 
@@ -25,13 +25,23 @@ body{
 
 header{
     background: var(--background-black);
-    padding: 2em 0;
+}
+header nav{
+    display:inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+nav img{
+    height: 150px;
 }
 
 header ul{
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    width: 50%;
 }
 
 header a{
@@ -167,9 +177,19 @@ footer{
         font-size: 0.7rem;
     }
 
+    nav {
+        flex-direction: column;
+        padding: 2em 0;
+    }
+
+    nav img{
+        height: 100px;
+    }
+
     header ul {
         align-items: center;
-        gap: 1em;
+        width: 100%;
+        gap: 2em 0;
     }
 
     #banner {
@@ -207,7 +227,7 @@ footer{
     #gallery {
         background-size:contain;
         flex-direction: column;
-        min-height: 26.6vh;
+        min-height: 25.2vh;
     }
     
 
