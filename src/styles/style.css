@@ -5,7 +5,7 @@
     --fonts: "cal sans", sans-serif;;
     --text-color-hover: black;
     --background-black: #100F10;
-    --background-white: #whitesmoke;
+    --background-white: white;
 }
 
 *{
@@ -31,10 +31,11 @@ header nav{
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    padding: 1em 0;
 }
 
 nav img{
-    height: 150px;
+    height: 120px;
 }
 
 header ul{
@@ -81,7 +82,7 @@ p, button{
     margin:0;
 }
 
-#about-me {
+.content-section {
     display:center;
     align-items: center;
     justify-content: center;
@@ -89,7 +90,7 @@ p, button{
     padding: 4rem 0;
 }
 
-#about-me > h2{
+.content-section > h2{
     margin-bottom: 1em;
 }
 
@@ -101,12 +102,12 @@ p, button{
     width: 100%;
 }
 
-#txt-about-me {
+.txt-content-section{
     max-width: 750px;
 }
 
-#txt-about-me > p{
-    padding: 2rem;
+.txt-content-section> p{
+    padding: 1.6rem;
 }
 
 #img-card {
@@ -126,7 +127,7 @@ p, button{
     bottom: -200px;
 }
 
-#gallery{
+#top-poses-banner{
     display:flex;
     justify-content: center;
     align-items:center;
@@ -138,6 +139,7 @@ p, button{
     background-size: 100%;
     min-height: 95vh;
     margin:0;
+
 }
 
 button{
@@ -202,7 +204,7 @@ footer{
     }
 
 
-    #about-me {
+    .content-section {
         flex-direction: column;
         padding: 2rem 1rem;
     }
@@ -214,7 +216,7 @@ footer{
 
     }
 
-    #txt-about-me {
+    .txt-content-section{
         width:auto;
     }
 
@@ -224,14 +226,14 @@ footer{
         max-width: 300px;
     }
 
-    #gallery {
+    #top-poses-banner {
         background-size:contain;
         flex-direction: column;
-        min-height: 25.2vh;
+        min-height: 26.6vh;
     }
     
 
-     #gallery button {
+     #top-poses-banner button {
         max-width: 150px;
         width: 100%;
     }
