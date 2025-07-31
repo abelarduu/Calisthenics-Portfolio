@@ -18,12 +18,12 @@
 
 #yoga-pose-banner {
     background-image: var(--img-yoga-pose-banner);
-    min-height: 56vh;
+    min-height: 54vh;
 }
 
 #calisthenics-pose-banner {
     background-image: var(--img-calisthenics-pose-banner);
-    min-height: 88vh;
+    min-height: 86vh;
 }
 .centered-container {
     justify-content: center;
