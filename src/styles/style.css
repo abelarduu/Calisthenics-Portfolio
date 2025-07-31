@@ -15,16 +15,16 @@
     min-height: 67vh;
 }
 
-#calisthenics-pose-banner {
-    background-image: var(--img-calisthenics-pose-banner);
-    min-height: 87vh;
-}
 
 #yoga-pose-banner {
     background-image: var(--img-yoga-pose-banner);
-    min-height: 55vh;
+    min-height: 56vh;
 }
 
+#calisthenics-pose-banner {
+    background-image: var(--img-calisthenics-pose-banner);
+    min-height: 88vh;
+}
 .centered-container {
     justify-content: center;
     align-items: center;
