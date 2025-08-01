@@ -1,0 +1,42 @@
+main{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 100%;
+}
+
+#gallery img {
+    width: 20rem;
+    margin: 3rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    box-shadow: ;
+}
+
+#img-card {
+    overflow: hidden;
+    border-radius: 20px;
+
+    cursor: pointer;
+}
+
+#img-card img {
+    object-fit: cover;
+    object-position: center 30%;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+/* Responsivo para mobile */
+@media screen and (max-width: 425px) {
+    #gallery img {
+        width: 15rem;
+    }
+}

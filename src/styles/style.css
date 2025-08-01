@@ -18,12 +18,12 @@
 
 #yoga-pose-banner {
     background-image: var(--img-yoga-pose-banner);
-    max-height: 57vh;
+    min-height: 57vh;
 }
 
 #calisthenics-pose-banner {
     background-image: var(--img-calisthenics-pose-banner);
-    max-height: 89vh;
+    min-height: 89vh;
 }
 
 .centered-container {
@@ -67,7 +67,7 @@ button {
 
 #img-card {
     overflow: hidden;
-    border-radius: 20px;
+    border-radius: 1rem;
     height: 350px;
     width: 350px;
     cursor: pointer;
