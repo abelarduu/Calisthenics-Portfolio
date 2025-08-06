@@ -16,5 +16,5 @@ Tudo com um layout limpo, responsivo e feito à mão com carinho — linha por l
 [![CSS V.3.0](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 ### Resultado
-![Interface do site](src/images/interface.gif)
+![Interface do site](img/interface.gif)
 </div>
