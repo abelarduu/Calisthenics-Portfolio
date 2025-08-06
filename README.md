@@ -10,7 +10,7 @@ Neste projeto, uno minhas duas paixões: **movimento corporal** e **desenvolvime
 O **Calisthenics-Website** é uma galeria estática onde compartilho minhas poses, transições e progressões, com foco em controle, força e flexibilidade.  
 Tudo com um layout limpo, responsivo e feito à mão com carinho — linha por linha.
 
-**Veja o site em ação [aqui](https://abelarduu.github.io/Calisthenics-Website/)!** 💪📸
+**Veja o site em ação [aqui](https://abelarduu.github.io/Calisthenics-Portfolio/)!** 💪📸
 
 [![HTML V.5.0](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS V.3.0](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
